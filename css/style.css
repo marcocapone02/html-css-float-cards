@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+
+/*HEADER*/
+h1{
+  color: #E53170;
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 40px 50px;
+}
+
+p{
+  font-size: 17px;
+}
+
+
+/*MAIN*/
+main{
+  height: 400px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+main .sottotitolo{
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.line{
+  display: inline-block;
+}
+
+/*BOX*/
+.box-content{
+  height: 100px;
+  width: 358px;
+  float: left;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.left{
+  margin-right: 35px;
+}
+
+.box-content .photo{
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.box-content .box{
+  height: 100px;
+  width: 258px;
+  background-color: #0f0e17;
+  color: white;
+  float: left;
+  padding: 15px;
+}
+
+.info{
+  margin: 5px;
+}
+
+.box-info{
+  line-height : 23px;
+}
+
+/*STILE EMAIL*/
+.box-info a{
+  color: #6ecbf2;
+  text-decoration: none;
+}
+
+/*STILE NOME*/
+.box-info .name{
+  font-weight: bold;
+  font-size: 19px;
+}
+
+/*FOTO PROFILO*/
+#photo1{
+  background-image: url(../img/male1.png);
+}
+
+#photo2{
+  background-image: url(../img/female1.png);
+}
+
+#photo3{
+  background-image: url(../img/male2.png);
+}
+
+#photo4{
+  background-image: url(../img/female2.png);
+}
+
+#photo5{
+  background-image: url(../img/male3.png);  
+}
+
+#photo6{
+  background-image: url(../img/female3.png);  
+}
+
